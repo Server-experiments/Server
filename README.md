@@ -1,2 +1,5 @@
-# Stable-Server
-A very stable eagler server, with 1.21.1 paper base, using all the right config and settings to make your game as smooth as possible, while still maintaining brilliant features of the game!
+run these: `cd paper && java -Xms1G -Xmx2G -jar paper.jar`
+
+then `cd bungee && java -Xms512M -Xmx1G -jar bungee.jar`
+
+make port 8081 public, and connect via eagler, replacing HTTPS with WSS
